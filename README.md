@@ -1,135 +1,153 @@
-# UrCalls — Video Conferencing Platform  
-### Product Delivery Case Study
+# UrCalls — Video Conferencing SaaS Platform Case Study  
+### Real-Time Collaboration Product Delivery
 
 > **Role:** Project Director / Delivery Lead  
-> **Industry:** SaaS · Video Conferencing · Digital Collaboration  
+> **Industry:** SaaS · Real-Time Video · Digital Collaboration  
 > **Status:** Delivered  
-> **Live Product:** https://urcalls.com
+> **Live Product:** https://urcalls.com  
 
 ---
 
-## Overview
+## Executive Overview
 
-UrCalls is a full-featured video conferencing platform supporting meetings, webinars, recordings, breakout rooms, whiteboards, AI meeting notes, and team/seat management.
+UrCalls is a multi-feature video conferencing SaaS platform supporting:
 
-I served as **Project Director**, responsible for coordinating end-to-end delivery across product, engineering, design, marketing, and supporting operational functions.
+- Real-time meetings  
+- Webinars  
+- AI-generated meeting notes  
+- Breakout rooms  
+- Whiteboard collaboration  
+- Cloud recording
+- User customisation
+- Team & seat management  
 
-This repository documents **what was delivered**, **how delivery was managed**, and **the resulting product artifacts**.  
+I led end-to-end delivery of the platform across product, engineering, design, marketing, and operational coordination.
+
+This repository documents platform scope, delivery leadership, and execution outcomes.  
 No proprietary source code is included.
 
 ---
 
-## Primary Product View
+## Product Interface
 
 ![UrCalls Meeting Screen UI](assets/UrCalls%20Meeting%20Screen%20UI.png)
 
-_**Live Meeting Overview**: Live meeting interface showing real-time recording, multiple participants, AI Notes, Whiteboard, Screen-sharing, Break-out rooms, and other meeting controls._
+**Live Meeting Environment**  
+Real-time meeting interface with recording controls, participant management, AI notes, whiteboard, breakout rooms, screen sharing, etc.
 
 ![UrCalls Dashboard](assets/UrCalls%20Dashboard.png)
 
-_**Dashboard Overview**: The central workspace where users manage meetings, webinars, recordings, and team activity._
+**User Dashboard**  
+Centralized workspace for managing meetings, webinars, recordings, and team activity.
 
 ---
 
-## My Role & Responsibilities
+## Delivery Scope
 
-I led delivery across multiple parallel workstreams, acting as the central coordination point between technical and non-technical teams.
+The platform required coordination across multiple parallel workstreams:
 
-**Key responsibilities included:**
-- End-to-end product delivery ownership
-- Translating business requirements into executable delivery plans
-- Coordinating developers, designers, and supporting teams
-- Managing timelines, dependencies, and delivery risks
-- Ensuring alignment between product scope, execution, and launch readiness
-- Stakeholder communication and delivery reporting
+- Real-time video infrastructure
+- User authentication & access control
+- Recording storage and playback systems
+- Webinar configuration & participant management
+- AI meeting notes integration
+- Team/seat administration workflows
+- Marketing site & onboarding experience
+
+Delivery required structured sequencing of feature rollout while maintaining system stability.
 
 ---
 
-## Product Experience Highlights
+## My Role
+
+As Project Director, I functioned as the central coordination layer between technical execution and business objectives.
+
+Responsibilities included:
+
+- Defining phased delivery roadmap  
+- Translating business requirements into structured execution plans  
+- Coordinating frontend, backend, and infrastructure teams  
+- Managing dependencies across real-time feature releases  
+- Aligning product readiness with marketing rollout  
+- Overseeing post-launch stabilization and iteration cycles  
+
+---
+
+## Platform Experience
 
 ### Meeting Lifecycle
 
 ![Meeting Pre-Join Screen](assets/UrCalls%20Meeting%20Pre-join%20screen.png)
 
-_**Meeting Join interface:** Pre-meeting setup screen allowing users to configure audio and video before joining._
+**Pre-Join Configuration**  
+User device setup and meeting entry validation.
 
 ![Meeting Room With Speaker Spotlighting](assets/Urcalls%20Meeting%20Room.png)
-_**Meeting Room Spotlight View:** live meeting room UI mode where the speaker is always in center spotlight and other participants are stacked on the right._
+
+**Speaker Spotlight Mode**  
+Focused participant view optimized for structured discussion.
 
 ![Meeting Room Grid View](assets/Urcalls%20Meeting%20Room%202.png)
 
-_**Meeting Room Grid View:** Live meeting room UI mode showing all paricipants on-screen._
+**Grid Mode**  
+Multi-participant visibility for collaborative sessions.
 
 ---
 
-### Webinar & Recording Management
+### Webinar & Recording Infrastructure
 
 ![Webinar Tab](assets/UrCalls%20Dashboard---%20Webinar%20Tab.png)
 
-_Webinar creation and management interface._
+**Webinar Management**  
+Creation, scheduling, and participant coordination.
 
 ![Recording Tab](assets/UrCalls%20Dashboard---%20Recording%20Tab.png)
 
-_Access to recorded sessions for playback and review._
+**Recording Archive**  
+Secure session storage and playback access.
 
 ---
 
-### Support & Access
-
-![Support Tab](assets/UrCalls%20Dashboard---%20Support%20Tab.png)
-
-_In-app support and assistance section._
+### Access & Support
 
 ![Signin Page](assets/UrCalls%20Signin%20page.png)
 
-_User authentication and platform entry point._
+**Authentication Layer**  
+Secure user onboarding and access control.
+
+![Support Tab](assets/UrCalls%20Dashboard---%20Support%20Tab.png)
+
+**In-App Support**  
+Embedded assistance and issue routing.
 
 ---
 
-## Scope of Work
+## Delivery Environment
 
-- Product delivery oversight (core application features)
-- Software development coordination
-- Website delivery management
-- Marketing campaign and rollout coordination
-- Post-launch stabilization and operational handover
-
----
-
-## Tools & Working Environment
-
-- **GitHub** — delivery documentation and visibility  
-- **Project management tools** — HubSpot, Asana (or similar)  
-- **Communication tools** — Email, WhatsApp  
-- **Marketing & CRM platforms** — GoHighLevel (where applicable)  
-- **Hosting & deployment coordination** — non-technical oversight
+- GitHub — delivery visibility & documentation  
+- Project management tooling — roadmap & milestone tracking  
+- Cross-functional coordination — product, engineering, marketing  
+- Hosting & deployment oversight — non-code infrastructure coordination  
 
 ---
 
-## Delivery Outcomes
+## Outcomes
 
-- Video conferencing product successfully delivered
-- Supporting website and digital assets completed
-- Cross-functional teams aligned for ongoing operations
+- Full-feature video conferencing SaaS platform delivered  
+- AI-assisted meeting documentation integrated  
+- Webinar and recording infrastructure operational  
+- Team-based seat management implemented  
+- Coordinated product launch across functional teams  
 
-> Specific internal metrics and performance data are excluded due to confidentiality.
-
----
-
-## Evidence & Artifacts
-
-Additional screenshots and delivery documentation are available in:
-
-- `/assets` — UI screenshots and visual delivery evidence  
-- `/docs` — supporting delivery documentation
+Specific internal metrics excluded due to confidentiality.
 
 ---
 
 ## Repository Notes
 
-- This repository is intended as a **professional delivery case study**
-- It does **not** contain proprietary source code
-- The focus is on **delivery leadership, coordination, and outcomes**, not implementation
+- This repository serves as a professional SaaS delivery case study  
+- No proprietary source code is included  
+- Focus is on platform coordination, delivery sequencing, and execution leadership  
 
 ---
 
