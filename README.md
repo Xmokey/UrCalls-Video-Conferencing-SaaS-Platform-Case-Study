@@ -114,11 +114,11 @@ This supports customers who need webinar capability without making high-scale ev
 
 ---
 
-### 3. Recording and AI are separate platform capabilities
+### 3. Recording and AI as separate platform capabilities
 
 Recording has distinct local and cloud paths. Local recordings remain on the user's device, while cloud recordings are managed by the platform according to the applicable organisational storage entitlement.
 
-AI meeting notes and related AI functionality are **processed by the platform independently of the user's storage allocation**. AI processing is therefore not gated by whether the user has available recording storage.
+AI meeting notes and related AI functionality are **processed by the platform to provide meeting updates in real time and after the meeting has ended**.
 
 ![Recording Archive](assets/UrCalls%20Dashboard---%20Recording%20Tab.png)
 
