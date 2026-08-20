@@ -45,6 +45,32 @@ The feature surface shows the intended breadth: UrCalls was not positioned as an
 
 ---
 
+## Product decision: build distribution into the product
+
+The product strategy also addressed a question beyond the user experience:
+
+**How would a new collaboration product create awareness and reach potential users at launch?**
+
+Rather than treating acquisition as something that happened entirely outside the product, I built an affiliate referral mechanism into UrCalls as a business-growth capability.
+
+The programme was designed for people with relevant audiences—including influencers, creators, educators, coaches and other professional users—who could promote UrCalls using personalized referral codes and earn a commission for successful referrals.
+
+The intended flow was:
+
+**Affiliate joins → Personalized referral code → Audience promotion → Referral attribution → Commission**
+
+Affiliates could join through the public website, making the programme self-service rather than dependent on manual recruitment and administration.
+
+![UrCalls affiliate programme](assets/affiliate-program.png)
+
+The purpose was explicitly commercial and go-to-market oriented: **facilitate product launch, expand awareness, create a distributed acquisition channel and support user adoption.**
+
+This was an important product-management decision because it connected the product to the business model around it. The platform was designed not only to deliver the service, but also to provide a mechanism for getting that service in front of more potential users.
+
+No unsupported acquisition or revenue figures are claimed; the evidence here is the product capability and the business mechanism that was designed and delivered.
+
+---
+
 ## Decision 1: distinguish collaboration from audience-scale engagement
 
 Meetings and webinars serve different jobs.
@@ -146,11 +172,12 @@ My responsibilities included:
 - translating business requirements into implementable workflows
 - coordinating frontend, backend and infrastructure dependencies
 - working through real-time communication and reliability constraints with engineering
+- designing the affiliate referral mechanism as part of the launch and adoption strategy
 - aligning product readiness with launch and marketing activity
 - overseeing post-launch stabilisation and iteration
 - validating that delivered capabilities matched the intended product behaviour
 
-The contribution was not simply coordinating a list of features. It was helping turn the product positioning into a coherent set of capabilities, commercial rules and technical constraints.
+The contribution was not simply coordinating a list of features. It was helping turn the product positioning into a coherent set of capabilities, commercial rules, technical constraints and a practical path to market.
 
 ---
 
@@ -172,17 +199,21 @@ Selected screens demonstrate the main operating surfaces:
 
 **Workspace** — the surrounding platform for meetings, webinars, recordings and account activity.
 
+![UrCalls affiliate programme](assets/affiliate-program.png)
+
+**Growth mechanism** — self-service affiliate onboarding and referral-led acquisition capability.
+
 ---
 
 ## Outcome
 
 UrCalls was delivered as a video conferencing and virtual-engagement platform designed to occupy the gap between enterprise-heavy collaboration systems and basic meeting tools.
 
-The product combined professional meeting capability with webinars, recording, AI-assisted documentation, collaboration features, organisation controls and customisation—while using usage-based webinar economics to support higher-scale activity without requiring every customer to adopt an enterprise-style model.
+The product combined professional meeting capability with webinars, recording, AI-assisted documentation, collaboration features, organisation controls and customisation. It also incorporated a deliberate business-growth mechanism so the product had a built-in route for affiliate-led awareness and acquisition.
 
 Specific commercial or adoption metrics are not claimed here.
 
-The product outcome that can be demonstrated is the translation of a clear market position into a working SaaS platform with differentiated product, commercial and technical decisions.
+The product outcome that can be demonstrated is the translation of a clear market position into a working SaaS platform with differentiated product, commercial, technical and go-to-market decisions.
 
 ---
 
