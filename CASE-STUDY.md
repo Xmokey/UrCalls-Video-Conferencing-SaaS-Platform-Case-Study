@@ -71,21 +71,23 @@ This was directly connected to the original positioning: **capability should sca
 
 ---
 
-## Decision 3: make recording a platform capability, not just a button
+## Decision 3: separate recording from AI processing
 
 Recording was designed with two distinct modes.
 
 **Local recording** remained on the user's device and did not consume platform storage.
 
-**Cloud recording** was managed by the platform and connected recording access with organisational storage and downstream AI processing.
+**Cloud recording** was managed by the platform and uses organisational storage according to the applicable storage entitlement.
+
+AI meeting notes and related AI functionality are **platform-processed independently of the user's storage allocation**. AI processing is therefore not gated by whether the user has available recording storage.
 
 ![UrCalls recording management](assets/UrCalls%20Dashboard---%20Recording%20Tab.png)
 
-That created a product relationship rather than an isolated feature:
+This distinction keeps two different product concerns separate:
 
-**Recording → Storage entitlement → AI processing**
+**Recording → Storage entitlement**
 
-AI meeting notes and summaries therefore sat on top of the existing recording workflow instead of becoming an independent product layer.
+**Meeting content → AI processing**
 
 ---
 
@@ -93,11 +95,11 @@ AI meeting notes and summaries therefore sat on top of the existing recording wo
 
 AI was deliberately positioned as an enhancement to collaboration, not as the identity of the product.
 
-AI-generated meeting notes, summaries and analytics were tied to the underlying meeting and recording capabilities.
+AI-generated meeting notes, summaries and analytics reduce the administrative work that follows a meeting while leaving the core collaboration experience unchanged.
 
-The product remained a video collaboration platform first, with AI reducing the administrative work that follows a meeting.
+The AI capability is handled as a platform service rather than as a feature gated by the user's storage capacity.
 
-This kept the product strategy aligned with the original goal: **useful capability without unnecessary product complexity.**
+The product remained a video collaboration platform first, with AI improving what happens after or around collaborative sessions.
 
 ---
 
