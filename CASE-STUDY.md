@@ -7,6 +7,10 @@
 **Audience:** SMEs, solopreneurs, service providers, online educators, coaches and similar users  
 **Status:** Delivered
 
+![UrCalls website](assets/website-hero.png)
+
+**Product positioning:** professional video conferencing and virtual engagement without the complexity of an enterprise collaboration suite.
+
 ---
 
 ## The product problem
@@ -19,9 +23,9 @@ UrCalls was built for the middle ground:
 
 > **Not so enterprise-heavy that it becomes complicated, and not so basic that it lacks the capabilities required for serious collaborative work.**
 
-The product therefore had to balance **capability, simplicity and accessible usage models** rather than compete on feature volume alone.
+The target was deliberately broader than conventional SME teams: solopreneurs, service providers, online educators, coaches and other independent professionals also needed a professional virtual-work environment without enterprise-style overhead.
 
-![UrCalls meeting experience](assets/UrCalls%20Meeting%20Screen%20UI.png)
+The product therefore had to balance **capability, simplicity and accessible usage models** rather than compete on feature volume alone.
 
 ---
 
@@ -35,7 +39,9 @@ The resulting platform combined:
 
 **Meetings · Webinars · Recording · AI meeting notes · Breakout rooms · Whiteboard · Team/seat management · Branding/customisation**
 
-![UrCalls dashboard](assets/UrCalls%20Dashboard.png)
+![UrCalls feature board](assets/features-board.png)
+
+The feature surface shows the intended breadth: UrCalls was not positioned as another basic meeting utility, but as a practical collaboration platform built around the needs of smaller professional users.
 
 ---
 
@@ -77,17 +83,18 @@ Recording was designed with two distinct modes.
 
 **Local recording** remained on the user's device and did not consume platform storage.
 
-**Cloud recording** was managed by the platform and uses organisational storage according to the applicable storage entitlement.
+**Cloud recording** was managed by the platform and used organisational storage according to the applicable storage entitlement.
 
-AI meeting notes and related AI functionality are **platform-processed independently of the user's storage allocation**. AI processing is therefore not gated by whether the user has available recording storage.
+AI meeting notes and related AI functionality are **processed by the platform independently of the user's storage allocation**. AI processing is therefore not gated by whether the user has available recording storage.
 
 ![UrCalls recording management](assets/UrCalls%20Dashboard---%20Recording%20Tab.png)
 
-This distinction keeps two different product concerns separate:
+The important product boundary was therefore:
 
-**Recording → Storage entitlement**
-
+**Recording → Storage entitlement**  
 **Meeting content → AI processing**
+
+AI processing is a platform capability in its own right, not a feature that consumes or depends on the customer's recording-storage allowance.
 
 ---
 
@@ -95,9 +102,9 @@ This distinction keeps two different product concerns separate:
 
 AI was deliberately positioned as an enhancement to collaboration, not as the identity of the product.
 
-AI-generated meeting notes, summaries and analytics reduce the administrative work that follows a meeting while leaving the core collaboration experience unchanged.
+AI-generated meeting notes, summaries and related meeting intelligence reduce the administrative work that follows a meeting while leaving the core collaboration experience unchanged.
 
-The AI capability is handled as a platform service rather than as a feature gated by the user's storage capacity.
+The AI capability is handled as a platform service. Its processing path is separate from recording storage and user storage entitlements.
 
 The product remained a video collaboration platform first, with AI improving what happens after or around collaborative sessions.
 
@@ -149,15 +156,21 @@ The contribution was not simply coordinating a list of features. It was helping 
 
 ## Evidence
 
-The repository contains deeper product documentation, implementation context and additional interface evidence.
+The repository contains deeper product documentation, implementation context and interface evidence.
 
-Selected screens demonstrate the product's main operating surfaces:
+Selected screens demonstrate the main operating surfaces:
+
+![UrCalls meeting experience](assets/UrCalls%20Meeting%20Screen%20UI.png)
+
+**Core meeting experience** — the primary collaborative workspace.
 
 ![Meeting pre-join](assets/UrCalls%20Meeting%20Pre-join%20screen.png)
 
-![Meeting grid](assets/Urcalls%20Meeting%20Room%202.png)
+**Meeting entry** — pre-join configuration before participants enter a session.
 
-![Support](assets/UrCalls%20Dashboard---%20Support%20Tab.png)
+![UrCalls dashboard](assets/UrCalls%20Dashboard.png)
+
+**Workspace** — the surrounding platform for meetings, webinars, recordings and account activity.
 
 ---
 
@@ -169,7 +182,7 @@ The product combined professional meeting capability with webinars, recording, A
 
 Specific commercial or adoption metrics are not claimed here.
 
-The product outcome that can be demonstrated is the translation of a clear market gap into a working SaaS platform with differentiated product, commercial and technical decisions.
+The product outcome that can be demonstrated is the translation of a clear market position into a working SaaS platform with differentiated product, commercial and technical decisions.
 
 ---
 
