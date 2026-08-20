@@ -1,154 +1,196 @@
-# UrCalls — Video Conferencing SaaS Platform Case Study  
-### Real-Time Collaboration Product Delivery
+# UrCalls — Video Conferencing for SMEs
+### Structured collaboration without enterprise-level complexity
 
-> **Role:** Project Director / Delivery Lead  
-> **Industry:** SaaS · Real-Time Video · Digital Collaboration  
+> **Role:** Product / Project Director & Delivery Lead  
+> **Product:** Video conferencing and virtual-engagement SaaS  
+> **Audience:** SMEs · solopreneurs · service providers · online educators · coaches  
 > **Status:** Delivered  
-> **Live Product:** https://urcalls.com  
+> **Live Product:** https://urcalls.com
 
 ---
 
-## Executive Overview
+## The Product Problem
 
-UrCalls is a multi-feature video conferencing SaaS platform supporting:
+There is a gap between two ends of the collaboration market.
 
-- Real-time meetings  
-- Webinars  
-- AI-generated meeting notes  
-- Breakout rooms  
-- Whiteboard collaboration  
-- Cloud recording
-- User customisation
-- Team & seat management  
+**Enterprise collaboration systems** can provide extensive capability, but often bring complexity, administration and cost that smaller teams do not need or cannot justify.
 
-I led end-to-end delivery of the platform across product, engineering, design, marketing, and operational coordination.
+**Basic meeting tools** solve the meeting itself, but can fall short when users need structured collaboration, webinars, recording, team controls, branding and other supporting capabilities around the meeting.
 
-This repository documents platform scope, delivery leadership, and execution outcomes.  
-No proprietary source code is included.
+UrCalls was built for the middle:
+
+> **Capable enough for serious collaborative work, without becoming an enterprise system that SMEs have to manage.**
+
+The product was designed for SMEs, solopreneurs, service providers, online educators, coaches and similar users who need more than a basic call without taking on enterprise-level complexity.
 
 ---
 
-## Product Interface
+## Product Strategy
+
+The product question was not simply **“What features can a video platform have?”**
+
+It was:
+
+**What functionality is essential for structured collaboration, and how can it be delivered without reproducing the complexity of enterprise platforms?**
+
+That led to a platform combining:
+
+- Real-time meetings
+- Webinars
+- Cloud and local recording
+- AI meeting notes and summaries
+- Breakout rooms
+- Whiteboard collaboration
+- Team and seat management
+- User and organization customization
+
+The product therefore extended beyond the meeting room while keeping the core experience focused on practical collaboration.
+
+---
+
+## Product Experience
 
 ![UrCalls Meeting Screen UI](assets/UrCalls%20Meeting%20Screen%20UI.png)
 
-**Live Meeting Environment**  
-Real-time meeting interface with recording controls, participant management, AI notes, whiteboard, breakout rooms, screen sharing, etc.
+**Collaborative meeting environment** — real-time participation with recording, participant management, AI notes, whiteboard, breakout rooms and screen sharing.
 
 ![UrCalls Dashboard](assets/UrCalls%20Dashboard.png)
 
-**User Dashboard**  
-Centralized workspace for managing meetings, webinars, recordings, and team activity.
+**Workspace** — a centralized environment for meetings, webinars, recordings and team activity.
 
 ---
 
-## Delivery Scope
+## Key Product Decisions
 
-The platform required coordination across multiple parallel workstreams:
+### 1. Meetings and webinars serve different jobs
 
-- Real-time video infrastructure
-- User authentication & access control
-- Recording storage and playback systems
-- Webinar configuration & participant management
-- AI meeting notes integration
-- Team/seat administration workflows
-- Marketing site & onboarding experience
+Meetings support ongoing communication and collaboration. Webinars support structured audience engagement such as training, events and larger sessions.
 
-Delivery required structured sequencing of feature rollout while maintaining system stability.
+They therefore require different operational and commercial behaviour rather than being treated as one undifferentiated meeting type.
+
+![Webinar Management](assets/UrCalls%20Dashboard---%20Webinar%20Tab.png)
+
+**Webinar management** — scheduling, configuration and participant coordination.
+
+---
+
+### 2. Webinar usage scales with actual usage
+
+Webinars were designed around subscription eligibility and usage-based credits rather than requiring every customer to carry an enterprise-style fixed capacity.
+
+**Subscription eligibility → Webinar credits → Attendee tier → Session consumption**
+
+This supports customers who need webinar capability without making high-scale event capacity the default cost structure for everyone.
+
+---
+
+### 3. Recording is part of the product system, not just a feature
+
+Recording has distinct local and cloud paths. Cloud recording connects to platform storage, organizational access and downstream AI processing.
+
+**Recording → Storage entitlement → AI processing**
+
+![Recording Archive](assets/UrCalls%20Dashboard---%20Recording%20Tab.png)
+
+**Recording archive** — managed session storage and playback access.
+
+---
+
+### 4. AI was positioned as a productivity layer
+
+AI meeting notes and summaries were designed to reduce the work that follows a meeting rather than replace the collaboration product itself.
+
+AI therefore sits downstream of the meeting and recording experience rather than becoming the product's primary proposition.
+
+---
+
+### 5. Business controls extend beyond the meeting room
+
+For organizations and teams, the product includes seat management, organization-level controls and customization. This makes the platform usable as a business collaboration tool rather than simply an individual video-call utility.
+
+---
+
+## Technical Product Challenge
+
+A collaboration product can be feature-rich and still fail if the underlying meeting experience is unreliable.
+
+The product therefore required attention to real-time video performance, network conditions, recording infrastructure, storage, scalability and deployment stability.
+
+I worked with engineering on the product implications of WebRTC performance in unstable network conditions, balancing meeting quality, latency, scalability and infrastructure cost.
+
+The technical work supported the same product promise: **keep the experience capable without making the underlying system unnecessarily heavy for the customer.**
 
 ---
 
 ## My Role
 
-As Project Director, I functioned as the central coordination layer between technical execution and business objectives.
+I led product and technical delivery across the platform, working across business requirements, engineering, infrastructure, design, marketing and operational readiness.
 
-Responsibilities included:
+My responsibilities included:
 
-- Defining phased delivery roadmap  
-- Translating business requirements into structured execution plans  
-- Coordinating frontend, backend, and infrastructure teams  
-- Managing dependencies across real-time feature releases  
-- Aligning product readiness with marketing rollout  
-- Overseeing post-launch stabilization and iteration cycles  
+- Translating business goals into product requirements and delivery priorities
+- Structuring the product roadmap and phased feature rollout
+- Defining dependencies across real-time, webinar, recording and collaboration capabilities
+- Coordinating frontend, backend and infrastructure execution
+- Working with engineering on technical product trade-offs
+- Aligning product readiness with onboarding and marketing rollout
+- Overseeing stabilization and iteration after launch
+
+The work combined product definition with hands-on technical delivery leadership.
 
 ---
 
-## Platform Experience
+## Product Evidence
 
-### Meeting Lifecycle
+### Meeting Experience
 
 ![Meeting Pre-Join Screen](assets/UrCalls%20Meeting%20Pre-join%20screen.png)
 
-**Pre-Join Configuration**  
-User device setup and meeting entry validation.
+**Pre-join configuration** — device setup and meeting-entry validation.
 
 ![Meeting Room With Speaker Spotlighting](assets/Urcalls%20Meeting%20Room.png)
 
-**Speaker Spotlight Mode**  
-Focused participant view optimized for structured discussion.
+**Speaker spotlight** — focused participant view for structured discussion.
 
 ![Meeting Room Grid View](assets/Urcalls%20Meeting%20Room%202.png)
 
-**Grid Mode**  
-Multi-participant visibility for collaborative sessions.
+**Grid view** — multi-participant visibility for collaborative sessions.
 
----
-
-### Webinar & Recording Infrastructure
-
-![Webinar Tab](assets/UrCalls%20Dashboard---%20Webinar%20Tab.png)
-
-**Webinar Management**  
-Creation, scheduling, and participant coordination.
-
-![Recording Tab](assets/UrCalls%20Dashboard---%20Recording%20Tab.png)
-
-**Recording Archive**  
-Secure session storage and playback access.
-
----
-
-### Access & Support
+### Supporting Platform
 
 ![Signin Page](assets/UrCalls%20Signin%20page.png)
 
-**Authentication Layer**  
-Secure user onboarding and access control.
+**Authentication** — account access and onboarding.
 
 ![Support Tab](assets/UrCalls%20Dashboard---%20Support%20Tab.png)
 
-**In-App Support**  
-Embedded assistance and issue routing.
+**In-app support** — assistance and issue routing within the platform.
 
 ---
 
-## Delivery Environment
+## Outcome
 
-- GitHub — delivery visibility & documentation  
-- Project management tooling — roadmap & milestone tracking  
-- Cross-functional coordination — product, engineering, marketing  
-- Hosting & deployment oversight — non-code infrastructure coordination  
+UrCalls was delivered as a full video-conferencing and virtual-engagement SaaS platform supporting meetings, webinars, recording, AI-assisted meeting documentation, collaboration and organizational controls.
+
+The product outcome was not simply a collection of meeting features. It was a collaboration platform designed around a specific market position:
+
+> **More capable than basic meeting tools, without inheriting the complexity of enterprise collaboration suites.**
+
+Specific internal performance and commercial metrics are excluded due to confidentiality.
 
 ---
 
-## Outcomes
+## Case Study
 
-- Full-feature video conferencing SaaS platform delivered  
-- AI-assisted meeting documentation integrated  
-- Webinar and recording infrastructure operational  
-- Team-based seat management implemented  
-- Coordinated product launch across functional teams  
+The detailed product case study covers the product problem, strategic positioning, key product decisions, technical trade-offs, delivery leadership and validation approach.
 
-Specific internal metrics excluded due to confidentiality.
+**[Read the full PM Case Study](CASE-STUDY.md)**
 
 ---
 
 ## Repository Notes
 
-- This repository serves as a professional SaaS delivery case study  
-- No proprietary source code is included  
-- Focus is on platform coordination, delivery sequencing, and execution leadership  
-
----
-
-### End of Case Study
+- Professional product case-study repository
+- No proprietary source code included
+- Selected screenshots provide product evidence
+- Detailed decision analysis is available in the PM case study
