@@ -108,9 +108,7 @@ AI meeting notes and related AI functionality are **processed by the platform in
 
 AI meeting notes and summaries were designed to reduce the work that follows a meeting rather than replace the collaboration product itself.
 
-The AI capability operates as a platform service. Its processing path is separate from the customer's recording-storage entitlement, so the product does not treat AI functionality as another form of user storage consumption.
-
-The product remained a video collaboration platform first, with AI reducing the administrative work that follows a meeting.
+The AI capability operates as a platform service. The product remained a video collaboration platform first, with AI reducing the administrative work that follows a meeting.
 
 ---
 
@@ -126,7 +124,7 @@ A collaboration product can be feature-rich and still fail if the underlying mee
 
 The product therefore required attention to real-time video performance, network conditions, recording infrastructure, storage, AI processing, scalability and deployment stability.
 
-I worked with engineering on the product implications of WebRTC performance in unstable network conditions, balancing meeting quality, latency, scalability and infrastructure cost.
+I worked closely with engineering on the product implications of WebRTC performance in unstable network conditions, balancing meeting quality, latency, scalability and infrastructure cost.
 
 The technical work supported the same product promise: **keep the experience capable without making the underlying system unnecessarily heavy for the customer.**
 
