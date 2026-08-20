@@ -7,6 +7,10 @@
 > **Status:** Delivered  
 > **Live Product:** https://urcalls.com
 
+![UrCalls website](assets/website-hero.png)
+
+**UrCalls product positioning** — a professional video-conferencing platform designed for customers who need more capability than basic meeting tools without taking on the complexity of enterprise collaboration suites.
+
 ---
 
 ## The Product Problem
@@ -44,7 +48,11 @@ That led to a platform combining:
 - Team and seat management
 - User and organization customization
 
-The product therefore extended beyond the meeting room while keeping the core experience focused on practical collaboration.
+The feature set was deliberately broader than the meeting room, while the product remained focused on practical virtual work.
+
+![UrCalls feature board](assets/features-board.png)
+
+**Feature surface** — the platform combines meeting, recording, webinar, collaboration and AI capabilities in one product experience.
 
 ---
 
@@ -86,9 +94,9 @@ This supports customers who need webinar capability without making high-scale ev
 
 ### 3. Recording and AI are separate platform capabilities
 
-Recording has distinct local and cloud paths. Cloud recording is managed by the platform and uses organisational storage according to the applicable storage entitlement.
+Recording has distinct local and cloud paths. Local recordings remain on the user's device, while cloud recordings are managed by the platform according to the applicable organisational storage entitlement.
 
-AI meeting notes and related AI functionality are **platform-processed independently of the user's storage allocation**. AI processing is therefore not gated by whether the user has available recording storage.
+AI meeting notes and related AI functionality are **processed by the platform independently of the user's storage allocation**. AI processing is therefore not gated by whether the user has available recording storage.
 
 ![Recording Archive](assets/UrCalls%20Dashboard---%20Recording%20Tab.png)
 
@@ -100,7 +108,7 @@ AI meeting notes and related AI functionality are **platform-processed independe
 
 AI meeting notes and summaries were designed to reduce the work that follows a meeting rather than replace the collaboration product itself.
 
-The AI capability is handled as a platform service, allowing meeting intelligence to be processed without making user storage capacity the dependency for AI functionality.
+The AI capability operates as a platform service. Its processing path is separate from the customer's recording-storage entitlement, so the product does not treat AI functionality as another form of user storage consumption.
 
 The product remained a video collaboration platform first, with AI reducing the administrative work that follows a meeting.
 
@@ -194,5 +202,5 @@ The detailed product case study covers the product problem, strategic positionin
 
 - Professional product case-study repository
 - No proprietary source code included
-- Selected screenshots provide product evidence
+- Selected screenshots and visual artifacts provide product evidence
 - Detailed decision analysis is available in the PM case study
