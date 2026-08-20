@@ -84,11 +84,11 @@ This supports customers who need webinar capability without making high-scale ev
 
 ---
 
-### 3. Recording is part of the product system, not just a feature
+### 3. Recording and AI are separate platform capabilities
 
-Recording has distinct local and cloud paths. Cloud recording connects to platform storage, organizational access and downstream AI processing.
+Recording has distinct local and cloud paths. Cloud recording is managed by the platform and uses organisational storage according to the applicable storage entitlement.
 
-**Recording → Storage entitlement → AI processing**
+AI meeting notes and related AI functionality are **platform-processed independently of the user's storage allocation**. AI processing is therefore not gated by whether the user has available recording storage.
 
 ![Recording Archive](assets/UrCalls%20Dashboard---%20Recording%20Tab.png)
 
@@ -100,7 +100,9 @@ Recording has distinct local and cloud paths. Cloud recording connects to platfo
 
 AI meeting notes and summaries were designed to reduce the work that follows a meeting rather than replace the collaboration product itself.
 
-AI therefore sits downstream of the meeting and recording experience rather than becoming the product's primary proposition.
+The AI capability is handled as a platform service, allowing meeting intelligence to be processed without making user storage capacity the dependency for AI functionality.
+
+The product remained a video collaboration platform first, with AI reducing the administrative work that follows a meeting.
 
 ---
 
@@ -114,7 +116,7 @@ For organizations and teams, the product includes seat management, organization-
 
 A collaboration product can be feature-rich and still fail if the underlying meeting experience is unreliable.
 
-The product therefore required attention to real-time video performance, network conditions, recording infrastructure, storage, scalability and deployment stability.
+The product therefore required attention to real-time video performance, network conditions, recording infrastructure, storage, AI processing, scalability and deployment stability.
 
 I worked with engineering on the product implications of WebRTC performance in unstable network conditions, balancing meeting quality, latency, scalability and infrastructure cost.
 
