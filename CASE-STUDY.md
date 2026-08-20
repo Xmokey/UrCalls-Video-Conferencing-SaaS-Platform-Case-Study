@@ -67,7 +67,6 @@ The purpose was explicitly commercial and go-to-market oriented: **facilitate pr
 
 This was an important product-management decision because it connected the product to the business model around it. The platform was designed not only to deliver the service, but also to provide a mechanism for getting that service in front of more potential users.
 
-No unsupported acquisition or revenue figures are claimed; the evidence here is the product capability and the business mechanism that was designed and delivered.
 
 ---
 
