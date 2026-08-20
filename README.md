@@ -56,6 +56,28 @@ The feature set was deliberately broader than the meeting room, while the produc
 
 ---
 
+## Product-Growth Architecture
+
+UrCalls was designed with a second product question beyond **“How should users collaborate?”**:
+
+**“How can the product help create its own path to market?”**
+
+For launch and adoption, I built an affiliate referral mechanism into the product. The goal was to turn people who already had relevant audiences—such as influencers, creators, educators, coaches and other professional users—into a distributed acquisition channel.
+
+Affiliates can join the programme through the public website, receive personalized referral codes and promote UrCalls to their audiences. Referral activity is attributed to the affiliate so commissions can be earned for successful referrals.
+
+**Affiliate joins → Personalized referral code → Audience promotion → Referral attribution → Commission**
+
+This was a **business-growth capability**, not simply another conferencing feature. It was designed to facilitate product launch, increase awareness and create an incentive-driven route to user acquisition and adoption.
+
+![UrCalls affiliate programme](assets/affiliate-program.png)
+
+**Affiliate programme** — a self-service acquisition mechanism built into the product's go-to-market model.
+
+The important product decision was to treat distribution as part of the product system rather than assuming marketing would begin only after the platform was built.
+
+---
+
 ## Product Experience
 
 ![UrCalls Meeting Screen UI](assets/UrCalls%20Meeting%20Screen%20UI.png)
@@ -139,12 +161,13 @@ My responsibilities included:
 - Translating business goals into product requirements and delivery priorities
 - Structuring the product roadmap and phased feature rollout
 - Defining dependencies across real-time, webinar, recording and collaboration capabilities
+- Designing business and commercial mechanisms that supported launch and adoption, including the affiliate referral system
 - Coordinating frontend, backend and infrastructure execution
 - Working with engineering on technical product trade-offs
 - Aligning product readiness with onboarding and marketing rollout
 - Overseeing stabilization and iteration after launch
 
-The work combined product definition with hands-on technical delivery leadership.
+The work combined product definition with hands-on technical delivery leadership, including consideration of how the product would be distributed and adopted rather than treating acquisition as entirely separate from product design.
 
 ---
 
@@ -174,15 +197,19 @@ The work combined product definition with hands-on technical delivery leadership
 
 **In-app support** — assistance and issue routing within the platform.
 
+![Affiliate Programme](assets/affiliate-program.png)
+
+**Growth infrastructure** — self-service affiliate onboarding and referral-led acquisition.
+
 ---
 
 ## Outcome
 
-UrCalls was delivered as a full video-conferencing and virtual-engagement SaaS platform supporting meetings, webinars, recording, AI-assisted meeting documentation, collaboration and organizational controls.
+UrCalls was delivered as a full video-conferencing and virtual-engagement SaaS platform supporting meetings, webinars, recording, AI-assisted meeting documentation, collaboration, organizational controls and a built-in affiliate acquisition mechanism.
 
-The product outcome was not simply a collection of meeting features. It was a collaboration platform designed around a specific market position:
+The product outcome was not simply a collection of meeting features. It was a collaboration platform designed around a specific market position and supported by a product-level approach to distribution:
 
-> **More capable than basic meeting tools, without inheriting the complexity of enterprise collaboration suites.**
+> **More capable than basic meeting tools, without inheriting the complexity of enterprise collaboration suites—and designed with a path to awareness and adoption built into the product.**
 
 Specific internal performance and commercial metrics are excluded due to confidentiality.
 
@@ -190,7 +217,7 @@ Specific internal performance and commercial metrics are excluded due to confide
 
 ## Case Study
 
-The detailed product case study covers the product problem, strategic positioning, key product decisions, technical trade-offs, delivery leadership and validation approach.
+The detailed product case study covers the product problem, strategic positioning, key product decisions, technical trade-offs, launch and adoption strategy, delivery leadership and validation approach.
 
 **[Read the full PM Case Study](CASE-STUDY.md)**
 
