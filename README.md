@@ -68,7 +68,7 @@ Affiliates can join the programme through the public website, receive personaliz
 
 **Affiliate joins → Personalized referral code → Audience promotion → Referral attribution → Commission**
 
-This was a **business-growth capability**, not simply another conferencing feature. It was designed to facilitate product launch, increase awareness and create an incentive-driven route to user acquisition and adoption.
+This was a **business-growth capability**, not simply another feature. It was designed to facilitate product launch, increase awareness and create an incentive-driven route to user acquisition and adoption.
 
 ![UrCalls affiliate programme](assets/affiliate-program.png)
 
