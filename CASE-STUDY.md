@@ -102,40 +102,17 @@ This was directly connected to the original positioning: **capability should sca
 
 ---
 
-## Decision 3: separate recording from AI processing
-
-Recording was designed with two distinct modes.
-
-**Local recording** remained on the user's device and did not consume platform storage.
-
-**Cloud recording** was managed by the platform and used organisational storage according to the applicable storage entitlement.
-
-AI meeting notes and related AI functionality are **processed by the platform independently of the user's storage allocation**. AI processing is therefore not gated by whether the user has available recording storage.
-
-![UrCalls recording management](assets/UrCalls%20Dashboard---%20Recording%20Tab.png)
-
-The important product boundary was therefore:
-
-**Recording → Storage entitlement**  
-**Meeting content → AI processing**
-
-AI processing is a platform capability in its own right, not a feature that consumes or depends on the customer's recording-storage allowance.
-
----
-
-## Decision 4: keep AI as a productivity layer
+## Decision 3: keep AI as a productivity layer
 
 AI was deliberately positioned as an enhancement to collaboration, not as the identity of the product.
 
 AI-generated meeting notes, summaries and related meeting intelligence reduce the administrative work that follows a meeting while leaving the core collaboration experience unchanged.
 
-The AI capability is handled as a platform service. Its processing path is separate from recording storage and user storage entitlements.
-
-The product remained a video collaboration platform first, with AI improving what happens after or around collaborative sessions.
+The AI capability is handled as a platform service. The product remained a video collaboration platform first, with AI improving what happens after or around collaborative sessions.
 
 ---
 
-## Decision 5: make organisation controls part of the product
+## Decision 4: make organisation controls part of the product
 
 UrCalls was designed as a multi-user business platform rather than a collection of individual meeting accounts.
 
@@ -210,7 +187,6 @@ UrCalls was delivered as a video conferencing and virtual-engagement platform de
 
 The product combined professional meeting capability with webinars, recording, AI-assisted documentation, collaboration features, organisation controls and customisation. It also incorporated a deliberate business-growth mechanism so the product had a built-in route for affiliate-led awareness and acquisition.
 
-Specific commercial or adoption metrics are not claimed here.
 
 The product outcome that can be demonstrated is the translation of a clear market position into a working SaaS platform with differentiated product, commercial, technical and go-to-market decisions.
 
